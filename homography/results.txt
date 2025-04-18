@@ -1,0 +1,7 @@
+Tempo total para 1000 conversões: 0.000000 segundos
+Tempo médio por ponto: 0.000000000 segundos
+
+======
+
+Tempo total para 10000 conversões: 0.007625 segundos
+Tempo médio por ponto: 0.000000763 segundos
