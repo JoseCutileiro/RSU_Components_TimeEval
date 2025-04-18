@@ -1,0 +1,24 @@
+========================================================= YOLO 11 N =========================================================
+
+RESULTADOS YOLO11n (nano) (CPU):
+Total de frames: 11283
+Tempo total: 278.7308 s
+Tempo médio por frame: 0.024704 s
+
+RESULTADOS YOLO11n (nano) (GPU) (batch size = 1 <=> emulate real time):
+Total de frames: 11283
+Tempo total: 322.9746 s
+Tempo médio por frame: 0.028625 s
+
+RESULTADOS YOLO11n (nano) (GPU) (batch size = 16):
+Total de frames: 11283
+Tempo total: 196.6035 s
+Tempo médio por frame: 0.017425 s
+
+========================================================= YOLO 11 X =========================================================
+
+RESULTADOS YOLO11x (extra large) (CPU):
+Total de frames: 11283
+Tempo total: 1009.8363 s
+Tempo médio por frame: 0.089501 s
+

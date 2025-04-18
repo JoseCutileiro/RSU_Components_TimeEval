@@ -14,14 +14,13 @@ def xy_to_latlon(X, Y, lat0_deg, lon0_deg):
     lon_deg = math.degrees(lon)
     return lat_deg, lon_deg
 
-# Gerar 1000 pontos (X, Y) aleatórios
+
 num_pontos = 10000
-lat0 = 38.7169  # exemplo: Lisboa
+lat0 = 38.7169
 lon0 = -9.1399
 
 pontos = [(random.uniform(-1000, 1000), random.uniform(-1000, 1000)) for _ in range(num_pontos)]
 
-# Medir o tempo
 start_time = time.time()
 
 for X, Y in pontos:
