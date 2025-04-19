@@ -22,3 +22,14 @@ Total de frames: 11283
 Tempo total: 1009.8363 s
 Tempo médio por frame: 0.089501 s
 
+RESULTADOS (extra large) (GPU)  (batch size = 1 <=> emulate real time):
+Total de frames: 11283
+Tempo total: 1014.8195 s
+Tempo médio por frame: 0.089942 s
+
+RESULTADOS YOLO11x (extra large) (GPU) (batch size = 16):
+Total de frames: 11283
+Tempo total: 799.9338 s
+Tempo médio por frame: 0.070897 s
+
+

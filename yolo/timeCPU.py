@@ -8,7 +8,7 @@ BASE_PATH = 'C:\\Users\\35196\\Downloads\\MOT15\\MOT15'
 SECTIONS = ['train', 'test']
 
 # Carrega o modelo YOLO
-model = YOLO('models/yolo11n.pt')
+model = YOLO('models/yolo11x.pt').to('cuda')
 
 # Guardar tempos e contagem de frames
 tempos = []
